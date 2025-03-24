@@ -1,0 +1,26 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="20" cy="20" r="20" fill="url(#paint0_linear)" />
+  <path d="M20 10V20L26 26" stroke="white" stroke-width="2.5" stroke-linecap="round" />
+  <circle cx="20" cy="20" r="12" stroke="white" stroke-width="1.5" stroke-dasharray="2 2" />
+  <circle cx="20" cy="20" r="2" fill="white" />
+  
+  <!-- Small orbiting star/planet -->
+  <circle cx="28" cy="12" r="1.5" fill="white">
+    <animate attributeName="cx" values="28;12;28" dur="10s" repeatCount="indefinite" />
+    <animate attributeName="cy" values="12;28;12" dur="10s" repeatCount="indefinite" />
+  </circle>
+  
+  <!-- Smaller orbiting star/planet -->
+  <circle cx="14" cy="30" r="1" fill="white">
+    <animate attributeName="cx" values="14;26;14" dur="7s" repeatCount="indefinite" />
+    <animate attributeName="cy" values="30;10;30" dur="7s" repeatCount="indefinite" />
+  </circle>
+  
+  <!-- Gradient definition -->
+  <defs>
+    <linearGradient id="paint0_linear" x1="0" y1="0" x2="40" y2="40" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6366F1" />
+      <stop offset="1" stop-color="#0EA5E9" />
+    </linearGradient>
+  </defs>
+</svg>

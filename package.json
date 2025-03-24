@@ -1,0 +1,23 @@
+{
+  "name": "chronos",
+  "version": "1.0.0",
+  "description": "Chronos is a Model Context Protocol (MCP) server that provides onchain tools for AI applications like Claude Desktop and Cursor allowing them to interact with the Stellar network API.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "python3 -m http.server 8000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@splinetool/react-spline": "^2.2.6",
+    "@splinetool/runtime": "^0.9.490",
+    "framer-motion": "^10.16.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}

@@ -1,0 +1,53 @@
+<svg width="800" height="400" viewBox="0 0 800 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="400" fill="#1e293b"/>
+  <rect x="1" y="1" width="798" height="398" stroke="#334155" stroke-width="2"/>
+  <text x="400" y="50" font-family="Inter, sans-serif" font-size="24" font-weight="bold" fill="#f8fafc" text-anchor="middle">Chronos MCP Architecture</text>
+  
+  <!-- AI Application -->
+  <rect x="125" y="110" width="150" height="80" rx="10" fill="url(#ai-gradient)" stroke="#6366f1" stroke-width="2"/>
+  <text x="200" y="150" font-family="Inter, sans-serif" font-size="16" font-weight="bold" fill="#f8fafc" text-anchor="middle">AI Application</text>
+  
+  <!-- Chronos MCP Server -->
+  <rect x="325" y="110" width="150" height="80" rx="10" fill="url(#mcp-gradient)" stroke="#8b5cf6" stroke-width="2"/>
+  <text x="400" y="150" font-family="Inter, sans-serif" font-size="16" font-weight="bold" fill="#f8fafc" text-anchor="middle">Chronos MCP Server</text>
+  
+  <!-- Stellar Network -->
+  <rect x="525" y="110" width="150" height="80" rx="10" fill="url(#stellar-gradient)" stroke="#0ea5e9" stroke-width="2"/>
+  <text x="600" y="150" font-family="Inter, sans-serif" font-size="16" font-weight="bold" fill="#f8fafc" text-anchor="middle">Stellar Network</text>
+  
+  <!-- Arrows -->
+  <line x1="275" y1="150" x2="325" y2="150" stroke="#94a3b8" stroke-width="2"/>
+  <polygon points="325,150 315,145 315,155" fill="#94a3b8"/>
+  
+  <line x1="475" y1="150" x2="525" y2="150" stroke="#94a3b8" stroke-width="2"/>
+  <polygon points="525,150 515,145 515,155" fill="#94a3b8"/>
+  
+  <!-- Labels -->
+  <text x="300" y="130" font-family="Inter, sans-serif" font-size="14" fill="#94a3b8" text-anchor="middle">MCP Protocol</text>
+  <text x="500" y="130" font-family="Inter, sans-serif" font-size="14" fill="#94a3b8" text-anchor="middle">Stellar API</text>
+  
+  <!-- Operations -->
+  <text x="320" y="220" font-family="Inter, sans-serif" font-size="12" fill="#94a3b8">• stellar_get_account</text>
+  <text x="320" y="240" font-family="Inter, sans-serif" font-size="12" fill="#94a3b8">• stellar_create_transaction</text>
+  <text x="320" y="260" font-family="Inter, sans-serif" font-size="12" fill="#94a3b8">• stellar_submit_transaction</text>
+  <text x="320" y="280" font-family="Inter, sans-serif" font-size="12" fill="#94a3b8">• stellar_get_assets</text>
+  <text x="320" y="300" font-family="Inter, sans-serif" font-size="12" fill="#94a3b8">• stellar_query_ledger</text>
+  
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="ai-gradient" x1="125" y1="110" x2="275" y2="190" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6366f120"/>
+      <stop offset="1" stop-color="#6366f110"/>
+    </linearGradient>
+    
+    <linearGradient id="mcp-gradient" x1="325" y1="110" x2="475" y2="190" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8b5cf620"/>
+      <stop offset="1" stop-color="#8b5cf610"/>
+    </linearGradient>
+    
+    <linearGradient id="stellar-gradient" x1="525" y1="110" x2="675" y2="190" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0ea5e920"/>
+      <stop offset="1" stop-color="#0ea5e910"/>
+    </linearGradient>
+  </defs>
+</svg>

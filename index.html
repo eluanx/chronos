@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chronos | Stellar-based MCP Server</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="assets/chronos-logo.svg" alt="Chronos Logo">
+                <span>Chronos</span>
+            </div>
+            <div class="nav-links">
+                <a href="#features">Features</a>
+                <a href="#how-it-works">How It Works</a>
+                <a href="#use-cases">Use Cases</a>
+                <a href="#get-started">Get Started</a>
+            </div>
+        </nav>
+        
+        <div class="hero">
+            <div class="hero-content">
+                <h1>Onchain Tools for AI Applications</h1>
+                <p>Chronos is a Model Context Protocol (MCP) server that bridges AI applications with the Stellar blockchain network, enabling seamless onchain interactions.</p>
+                <div class="hero-buttons">
+                    <a href="#get-started" class="primary-button">Get Started</a>
+                    <a href="https://github.com/grandmastr/chronos-mcp" class="secondary-button">View on GitHub</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div id="hero-spline-viewer" class="hero-spline-viewer">
+                    <!-- Spline scene will be loaded here -->
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="features" class="features">
+        <h2>Key Features</h2>
+        <div class="feature-grid">
+            <div class="feature-card glowing-card">
+                <div class="card-inner">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" class="icon-ai">
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-5-9h10v2H7z"/>
+                        </svg>
+                    </div>
+                    <h3>AI Integration</h3>
+                    <p>Seamlessly connect AI applications like Claude Desktop and Cursor to the Stellar blockchain.</p>
+                </div>
+            </div>
+            <div class="feature-card glowing-card">
+                <div class="card-inner">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" class="icon-blockchain">
+                            <path d="M4 7v10h16V7H4zm14 8H6V9h12v6z"/>
+                        </svg>
+                    </div>
+                    <h3>Onchain Operations</h3>
+                    <p>Execute blockchain transactions, query account data, and manage assets directly from AI interfaces.</p>
+                </div>
+            </div>
+            <div class="feature-card glowing-card">
+                <div class="card-inner">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" class="icon-secure">
+                            <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm0 10.99h7c-.53 4.12-3.28 7.79-7 8.94V12H5V6.3l7-3.11v8.8z"/>
+                        </svg>
+                    </div>
+                    <h3>Secure Protocol</h3>
+                    <p>Built on the Model Context Protocol (MCP) standard with robust security measures for safe blockchain interactions.</p>
+                </div>
+            </div>
+            <div class="feature-card glowing-card">
+                <div class="card-inner">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" class="icon-dev">
+                            <path d="M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0l4.6-4.6-4.6-4.6L16 6l6 6-6 6-1.4-1.4z"/>
+                        </svg>
+                    </div>
+                    <h3>Developer Friendly</h3>
+                    <p>Simple API design with comprehensive documentation for easy integration into existing AI applications.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="how-it-works" class="how-it-works">
+        <h2>How It Works</h2>
+        <div class="workflow">
+            <div class="workflow-step">
+                <div class="step-number">1</div>
+                <h3>Connect</h3>
+                <p>AI applications connect to Chronos MCP server using the standard MCP protocol.</p>
+            </div>
+            <div class="workflow-step">
+                <div class="step-number">2</div>
+                <h3>Request</h3>
+                <p>The AI sends requests to perform Stellar network operations through Chronos.</p>
+            </div>
+            <div class="workflow-step">
+                <div class="step-number">3</div>
+                <h3>Execute</h3>
+                <p>Chronos translates requests into Stellar network API calls and executes them securely.</p>
+            </div>
+            <div class="workflow-step">
+                <div class="step-number">4</div>
+                <h3>Return</h3>
+                <p>Results from the Stellar network are formatted and returned to the AI application.</p>
+            </div>
+        </div>
+        <div class="technical-diagram">
+            <img src="assets/diagram-placeholder.svg" alt="Chronos Technical Diagram" class="diagram">
+        </div>
+    </section>
+
+    <section class="feature-carousel">
+        <div class="feature-carousel-container">
+            <div class="feature-carousel-content">
+                <div class="feature-carousel-badge">Stellar Integration</div>
+                <h2 class="feature-carousel-title">Bridging AI and Blockchain</h2>
+                <p class="feature-carousel-description">
+                    Chronos eliminates the complexity of blockchain integration for AI applications.
+                    By providing a standardized MCP interface to the Stellar network, we enable
+                    AI systems to seamlessly interact with blockchain technology without requiring
+                    deep expertise in distributed ledger systems.
+                </p>
+            </div>
+            <div class="carousel-wrapper">
+                <div class="carousel" id="feature-carousel">
+                    <div class="carousel-item">
+                        <span>AI-to-Blockchain Bridge</span>
+                    </div>
+                    <div class="carousel-item">
+                        <span>Secure Transaction Processing</span>
+                    </div>
+                    <div class="carousel-item">
+                        <span>Real-time Account Monitoring</span>
+                    </div>
+                    <div class="carousel-item">
+                        <span>Asset Management Interface</span>
+                    </div>
+                    <div class="carousel-item">
+                        <span>Smart Contract Integration</span>
+                    </div>
+                </div>
+                <div class="carousel-controls">
+                    <button class="carousel-button" id="prev-button">
+                        ←
+                    </button>
+                    <button class="carousel-button" id="next-button">
+                        →
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="use-cases" class="use-cases">
+        <h2>Use Cases</h2>
+        <div class="use-case-grid">
+            <div class="use-case-card glowing-card">
+                <div class="card-inner">
+                    <h3>AI-Powered Wallet Management</h3>
+                    <p>Allow AI assistants to check balances, manage assets, and execute transactions on behalf of users.</p>
+                </div>
+            </div>
+            <div class="use-case-card glowing-card">
+                <div class="card-inner">
+                    <h3>Automated Trading Strategies</h3>
+                    <p>Enable AI to implement and execute trading strategies on the Stellar decentralized exchange.</p>
+                </div>
+            </div>
+            <div class="use-case-card glowing-card">
+                <div class="card-inner">
+                    <h3>Smart Contract Interaction</h3>
+                    <p>Facilitate AI interaction with Stellar smart contracts and Soroban-based applications.</p>
+                </div>
+            </div>
+            <div class="use-case-card glowing-card">
+                <div class="card-inner">
+                    <h3>Data Analysis & Reporting</h3>
+                    <p>Empower AI to analyze on-chain data and generate insights from Stellar network activity.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="get-started" class="get-started">
+        <h2>Get Started</h2>
+        <div class="installation-steps">
+            <h3>Installation</h3>
+            <div class="code-block">
+                <pre><code>npm install chronos-mcp</code></pre>
+            </div>
+            
+            <h3>Basic Usage</h3>
+            <div class="code-block">
+                <pre><code>const Chronos = require('chronos-mcp');
+
+// Initialize Chronos with your Stellar account
+const chronos = new Chronos({
+  network: 'testnet', // or 'public' for mainnet
+  secretKey: 'YOUR_STELLAR_SECRET_KEY'
+});
+
+// Example: Get account information
+async function getAccountInfo(publicKey) {
+  try {
+    const account = await chronos.stellar.getAccount(publicKey);
+    console.log('Account Info:', account);
+    return account;
+  } catch (error) {
+    console.error('Error fetching account:', error);
+  }
+}</code></pre>
+            </div>
+            
+            <div class="cta-container">
+                <a href="https://www.npmjs.com/package/chronos-mcp/v/1.0.3" target="_blank" class="primary-button">View Full Documentation</a>
+                <a href="https://github.com/grandmastr/chronos-mcp/blob/main/CONTRIBUTING.md" target="_blank" class="secondary-button">Contribute</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="assets/chronos-logo.svg" alt="Chronos Logo">
+                <span>Chronos</span>
+            </div>
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h4>Resources</h4>
+                    <a href="https://www.npmjs.com/package/chronos-mcp/v/1.0.3" target="_blank">NPM Package</a>
+                    <a href="https://github.com/grandmastr/chronos-mcp" target="_blank">GitHub Repository</a>
+                    <a href="https://github.com/grandmastr/chronos-mcp/blob/main/CONTRIBUTING.md" target="_blank">Contributing Guidelines</a>
+                    <a href="https://www.stellar.org/" target="_blank">Stellar Network</a>
+                </div>
+                <div class="footer-column">
+                    <h4>Documentation</h4>
+                    <a href="https://www.npmjs.com/package/chronos-mcp/v/1.0.3#installation" target="_blank">Installation Guide</a>
+                    <a href="https://www.npmjs.com/package/chronos-mcp/v/1.0.3#usage" target="_blank">Usage Examples</a>
+                    <a href="https://www.npmjs.com/package/chronos-mcp/v/1.0.3#api" target="_blank">API Reference</a>
+                </div>
+                <div class="footer-column">
+                    <h4>Community</h4>
+                    <a href="https://github.com/grandmastr/chronos-mcp/issues" target="_blank">Report Issues</a>
+                    <a href="https://github.com/grandmastr/chronos-mcp/pulls" target="_blank">Pull Requests</a>
+                    <a href="https://github.com/grandmastr/chronos-mcp/discussions" target="_blank">Discussions</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 Chronos MCP. Released under the MIT License.</p>
+        </div>
+    </footer>
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>
