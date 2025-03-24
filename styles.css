@@ -303,6 +303,23 @@ nav {
     z-index: 0;
 }
 
+.video-container {
+    max-width: 1000px;
+    margin: 0 auto 4rem;
+    position: relative;
+    z-index: 1;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    background: var(--background);
+    border: 1px solid var(--glass-border);
+}
+
+.video-container iframe {
+    display: block;
+    border-radius: 0.5rem;
+}
+
 .feature-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
